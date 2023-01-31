@@ -1,5 +1,5 @@
 ---
-title: Introducción al Hacking | Ciberseguridad
+title: Introducción al Hacking y a la Ciberseguridad
 author: Droix3d
 date: 29-01-2023
 categories: [Hacking y más, Por donde empezar?]
