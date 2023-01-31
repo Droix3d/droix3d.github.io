@@ -1,0 +1,111 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Droix3d | Blog</title>
+  <subtitle>Sitio Web dedicado a la ciberseguridad | Hacking | CTF's | writeups y mas...</subtitle>
+  <updated>2023-01-31T00:24:08-06:00</updated>
+  <author>
+    <name>Omar Vlz Aka(Droix3d)</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="es-ES"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2023 Omar Vlz Aka(Droix3d) </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>SolidState Writeup</title>
+    <link href="http://localhost:4000/posts/SolidState/" rel="alternate" type="text/html" title="SolidState Writeup" />
+    <published>2023-01-30T00:00:00-06:00</published>
+  
+    <updated>2023-01-30T00:00:00-06:00</updated>
+  
+    <id>http://localhost:4000/posts/SolidState/</id>
+    <content src="http://localhost:4000/posts/SolidState/" />
+    <author>
+      <name>Droix3d</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="machines" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+10.10.10.51 SolidState (medium machine)
+
+
+  Comenzamos con la fase de recolección de información haciendo un escaneo por TCP en todos los puertos con nmap
+
+
+$ nmap -p-  -sS -vvv  --min-rate 2000 -n -Pn 10.10.10.51 -oG allPorts 
+
+
+-p-  -&amp;gt; escanearemos todos los rangos de puertos (65535)
+
+-sS -&amp;gt; análisis utilizando TCP SYN Este tipo de escaneo, está basado en la velocidad de escaneo, de a...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Introducción al Hacking | Ciberseguridad</title>
+    <link href="http://localhost:4000/posts/Introduccion/" rel="alternate" type="text/html" title="Introducción al Hacking | Ciberseguridad" />
+    <published>2023-01-29T00:00:00-06:00</published>
+  
+    <updated>2023-01-29T00:00:00-06:00</updated>
+  
+    <id>http://localhost:4000/posts/Introduccion/</id>
+    <content src="http://localhost:4000/posts/Introduccion/" />
+    <author>
+      <name>Droix3d</name>
+    </author>
+
+  
+    
+    <category term="Hacking y más" />
+    
+    <category term="Por donde empezar?" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      De que trata esta sección?
+
+En este Post recopilaré los pasos que llegué a seguir y como estructuraba todo un temario dedicado y especialemente enfocado al campo de la Ciberseguridad, espero y sea de ayuda y motivación para todas las personas que se esten adentrando en este mundo tan peculiar, grande e interesante como puede llegar a hacer la Ciberseguridad Ofensiva :D 
+espero y me puedas ayuda...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
