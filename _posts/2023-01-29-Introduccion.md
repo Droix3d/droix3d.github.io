@@ -7,9 +7,7 @@ tags: [Introducción]
 math: true
 mermaid: true
 pin: true
-
 ---
-
 ## De que trata esta sección?
 ---
 En este Post recopilaré los pasos que llegué a seguir y como estructuraba todo un temario dedicado y especialemente enfocado al campo de la Ciberseguridad, espero y sea de ayuda y motivación para todas las personas que se esten adentrando en este mundo tan peculiar, grande e interesante como puede llegar a hacer la Ciberseguridad Ofensiva :D 
