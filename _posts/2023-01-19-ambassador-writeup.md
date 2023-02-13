@@ -7,6 +7,8 @@ tags: [hackthebox, writeup, grafana, directoty transversal, arbitrary file read]
 pin: false
 image:
   path: ../../assets/img/commons/ambassador-writeup/Ambassador.png 
+  width: 800
+  height: 500
   alt: Ambassador WriteUp
 ---
 
