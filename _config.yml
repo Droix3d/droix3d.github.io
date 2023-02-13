@@ -81,7 +81,7 @@ theme_mode: dark
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
 avatar: https://64.media.tumblr.com/a600c17b1b667791e235c61010b66f15/2a2abc5ee8557d93-0e/s540x810/b4c9bf289319c94abbd5a256a36fbfea693ff727.pnj
