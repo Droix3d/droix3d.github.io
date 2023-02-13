@@ -2,6 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+image: /assets/img/commons/avatar.jpg
 ---
                               $ Whoami > Omar / Droix3d 🐱💻  
 
