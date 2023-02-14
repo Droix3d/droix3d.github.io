@@ -4,8 +4,10 @@ author: Droix3d
 date: 30-01-2023 
 categories: [HackTheBox, Machines Medium]
 tags: [Writeup Guías HackTheBox ]
-pin: false 
-image: /assets/img/commons/SolidState/solidstate.png
+pin: false
+image:
+  path: /assets/img/commons/SolidState/solidstate.png
+  alt: Trick WriteUp
 ---
 
 10.10.10.51 SolidState (medium machine)
