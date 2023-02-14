@@ -5,9 +5,8 @@ date: 30-01-2023
 categories: [HackTheBox, Machines Medium]
 tags: [Writeup Guías HackTheBox ]
 pin: false 
+image: /assets/img/commons/SolidState/solidstate.png
 ---
-
-![](/assets/img/commons/SolidState/solidstate.png)
 
 10.10.10.51 SolidState (medium machine)
 
