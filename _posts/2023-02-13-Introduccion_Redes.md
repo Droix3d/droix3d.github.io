@@ -5,9 +5,8 @@ date: 2023-02-13
 categories: [Hacking y mas, Por donde empezar]
 tags: [Redes, Introducción]
 pin: false
-image:
-  path: ../../assets/img/commons/Redes/1Redes.jpg
-  alt: Redes Introducción
+image: ../../assets/img/commons/Redes/1Redes.jpg
+alt: Redes Introducción
 ---
 
 ## Qué es una red?
