@@ -2,7 +2,7 @@
 title: Introducción al Hacking | Ciberseguridad
 author: Droix3d
 date: 29-01-2023
-categories: [Hacking y más, Por donde empezar?]
+categories: [Hacking y más, Por donde empezar]
 tags: [Introducción]
 math: true
 mermaid: true
