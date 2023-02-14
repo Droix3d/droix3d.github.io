@@ -1,0 +1,239 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Droix3d | Blog</title>
+  <subtitle>Sitio Web dedicado a la ciberseguridad | Hacking | CTF's | writeups y mas...</subtitle>
+  <updated>2023-02-14T02:00:30-06:00</updated>
+  <author>
+    <name>Omar Vlz Aka(Droix3d)</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="es-ES"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
+  <rights> © 2023 Omar Vlz Aka(Droix3d) </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Introducción a redes Modelo OSI - Fundamentos</title>
+    <link href="http://localhost:4000/posts/Introduccion_Redes/" rel="alternate" type="text/html" title="Introducción a redes Modelo OSI - Fundamentos" />
+    <published>2023-02-13T00:00:00-06:00</published>
+  
+    <updated>2023-02-13T00:00:00-06:00</updated>
+  
+    <id>http://localhost:4000/posts/Introduccion_Redes/</id>
+    <content src="http://localhost:4000/posts/Introduccion_Redes/" />
+    <author>
+      <name>Droix3d</name>
+    </author>
+
+  
+    
+    <category term="Hacking y más" />
+    
+    <category term="Por donde empezar?" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Qué es una red?
+es un conjunto de equipos conectados por medio de cables, señales, ondas o cualquier otro método de transporte de datos, comparten cierta información conectadas entre si para la transmisión de datos
+
+Tipos de redes en base a la distancia
+
+LAN: Local Area Network (Red de Área Local) Es una red de comunicación cuya área de cobertura geográfica excede el ámbito de un edificio. En u...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Trick Writeup</title>
+    <link href="http://localhost:4000/posts/Trick/" rel="alternate" type="text/html" title="Trick Writeup" />
+    <published>2023-02-07T00:00:00-06:00</published>
+  
+    <updated>2023-02-07T00:00:00-06:00</updated>
+  
+    <id>http://localhost:4000/posts/Trick/</id>
+    <content src="http://localhost:4000/posts/Trick/" />
+    <author>
+      <name>Omar Vlz Aka(Droix3d)</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Machines Easy" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      10.10.11.166 Trick (easy machine) vengo a traer otra guía para la maquina trick de HackTheBox tocando y explicando acerca del ataque de transferencia de zona, una de las vulnerabilides presentes en los servicios DNS donde podrmemos aprovecharnos de ello para hacer transacciones entre los dominion que se lleguen a emplear, con una técnica de bypassing en un LFI Directory Path Traversal
+
+Informat...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Union Writeup</title>
+    <link href="http://localhost:4000/posts/Union/" rel="alternate" type="text/html" title="Union Writeup" />
+    <published>2023-01-31T00:00:00-06:00</published>
+  
+    <updated>2023-01-31T00:00:00-06:00</updated>
+  
+    <id>http://localhost:4000/posts/Union/</id>
+    <content src="http://localhost:4000/posts/Union/" />
+    <author>
+      <name>Omar Vlz Aka(Droix3d)</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Machines Medium" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      10.10.11.128 Union (medium machine)
+
+Information Ghatering / ScanPorts
+
+
+  Comenzamos con la fase de recolección de información haciendo un escaneo por TCP en todos los puertos con nmap
+
+
+$ nmap -p-  -sS -vvv  --min-rate 2000 -n -Pn 10.10.11.128 -oG allPorts 
+
+
+-p-  -&amp;gt; escanearemos todos los rangos de puertos (65535)
+
+-sS -&amp;gt; análisis utilizando TCP SYN Este tipo de escaneo, está basado en...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>SolidState Writeup</title>
+    <link href="http://localhost:4000/posts/SolidState/" rel="alternate" type="text/html" title="SolidState Writeup" />
+    <published>2023-01-30T00:00:00-06:00</published>
+  
+    <updated>2023-01-30T00:00:00-06:00</updated>
+  
+    <id>http://localhost:4000/posts/SolidState/</id>
+    <content src="http://localhost:4000/posts/SolidState/" />
+    <author>
+      <name>Droix3d</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Machines Medium" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+10.10.10.51 SolidState (medium machine)
+
+
+  Comenzamos con la fase de recolección de información haciendo un escaneo por TCP en todos los puertos con nmap
+
+
+$ nmap -p-  -sS -vvv  --min-rate 2000 -n -Pn 10.10.10.51 -oG allPorts 
+
+
+-p-  -&amp;gt; escanearemos todos los rangos de puertos (65535)
+
+-sS -&amp;gt; análisis utilizando TCP SYN Este tipo de escaneo, está basado en la velocidad de escaneo, de a...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Introducción al Hacking | Ciberseguridad</title>
+    <link href="http://localhost:4000/posts/Introduccion/" rel="alternate" type="text/html" title="Introducción al Hacking | Ciberseguridad" />
+    <published>2023-01-29T00:00:00-06:00</published>
+  
+    <updated>2023-01-29T00:00:00-06:00</updated>
+  
+    <id>http://localhost:4000/posts/Introduccion/</id>
+    <content src="http://localhost:4000/posts/Introduccion/" />
+    <author>
+      <name>Droix3d</name>
+    </author>
+
+  
+    
+    <category term="Hacking y más" />
+    
+    <category term="Por donde empezar?" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      De que trata esta sección?
+
+En este Post recopilaré los pasos que llegué a seguir y como estructuraba todo un temario dedicado y especialemente enfocado al campo de la Ciberseguridad, espero y sea de ayuda y motivación para todas las personas que se esten adentrando en este mundo tan peculiar, grande e interesante como puede llegar a hacer la Ciberseguridad Ofensiva :D 
+espero y me puedas ayuda...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
