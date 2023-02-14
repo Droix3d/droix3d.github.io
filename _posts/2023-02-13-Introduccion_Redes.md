@@ -1,9 +1,9 @@
 ---
-title: Introducción a redes Modelo OSI Fundamentos
+title: Introducción a redes Modelo OSI - Fundamentos
 author: Droix3d 
 date: 2023-02-13 
-categories: [Hacking y más, Por donde empezar?]
-tags: [Redes, Introduccion]
+categories: [Hacking y mas, Por donde empezar]
+tags: [Redes, Introducción]
 pin: false
 image:
   path: ../../assets/img/commons/Redes/1Redes.jpg
