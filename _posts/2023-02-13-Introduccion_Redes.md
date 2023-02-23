@@ -123,3 +123,40 @@ Tipo de ataque mas común - > SNIFFING
 2 - Enlace de Datos - Normalmente se componen de falsificaciones de datos como puede ser la técnica para enmascarar la dirección MAC de un dispositivo de red que está codificada en una tarjeta de red (MAC spoofing)
 
 3 - Red - es donde se da la captura y escaneo de paquetes en una red el ataque mas presentado en esta capa es el típico (MAN In The Middle) Hombre en el medio como su nombre lo dice puede actuar un intermediario para la leer, insertar y modificar a voluntad paquetes que pasen en una red
+
+## Dirección MAC   
+La dirección MAC significa **Media Access Control** (Control de acceso a medios)**es el identificador único que cada fabricante le asigna a la tarjeta de red de sus dispositivos**. Se utiliza en los dispositivos conectados, esos que tienen tarjetas de red, como un ordenador portátil, un móvil, un router, una impresora, un televisor etc. 
+La dirección MAC generalmente es asignada por el fabricante de un controlador de interfaz de red (NIC) y se almacena en el hardware. La NIC es una tarjeta de circuito de ordenador que permite que un ordenador se conecte a una red. Durante la comunicación de red, el Protocolo de resolución de direcciones (ARP) para el Protocolo de Internet versión 4 (IPv4) o el Protocolo de descubrimiento de vecinos (NDP) para IPv6 traduce la IP en una NIC.
+
+La dirección MAC se forma de acuerdo con las reglas de los tres espacios de nombre de numeración. El formato es de seis conjuntos de dos dígitos o caracteres, separados por guiones. Un ejemplo de una dirección MAC es 30-65-EC-6F-C4-58.
+
+Algunos fabricantes, como Dell, colocan un identificador único, que se denomina Identificador único organizativo (OUI) e identifica al fabricante. Las OUI de algunas empresas conocidas son:
+
+-   Dell: 00-14-22,
+-   Cisco: 00-40-96,
+-   Nortel: 00-04-DC.
+Los primeros 6 dígitos (00:40:96) del MAC Address identifican al fabricante, llamado **OUI** (Identificador Único Organizacional). El Comité de la Autoridad de Registro de IEEE asigna estos prefijos MAC a sus proveedores registrados.
+
+**Los seis dígitos más a la derecha representan el controlador de interfaz de red, que es asignado por el fabricante.**
+Es decir, los primeros 3 bytes (24 bits) representan el fabricante de la tarjeta, y los últimos 3 bytes (24 bits) identifican la tarjeta particular de ese fabricante. Cada grupo de 3 bytes se puede representar con 6 dígitos hexadecimales, formando un número hexadecimal de 12 dígitos que representa la MAC completa.
+
+## Conectividad a la red enfocada a la Privacidad , Protección de conexiones y envío de datos
+![imagen 2]({{ '/assets/img/commons/Redes/proxvpn.png' | relative_url }}){: .center-image } 
+### VPS 
+VPS significa Virtual Private Server, que es una máquina virtual que proporciona su propio sistema operativo, recursos y entorno de alojamiento dedicado. En pocas palabras  **mantiene tus dispositivos y máquinas a salvo**
+
+### VPN 
+VPN significa Red privada virtual, que es una conexión cifrada segura que permite a los usuarios acceder a Internet de forma segura y privada al enrutar su tráfico de Internet a través de un servidor . Cuando se envía una  solicitud, la información se envía de vuelta al ordenador utilizando el mismo proceso de encriptación de datos. En pocas palabras, un servicio VPN protege la dirección IP real de un usuario y hace extremadamente difícil que la gente intercepte sus datos sensibles.
+
+### Proxy 
+Un sitio proxy, por otro lado, es un sitio web que actúa como intermediario entre un usuario e Internet. Se puede usar para eludir las restricciones del sitio web y para acceder a sitios web que están bloqueados en un área geográfica determinada.
+Al haber un intermediario entre el ordenador y la web, la actividad en línea del usuario se asocia a una dirección IP diferente perteneciente a un servidor host remoto
+
+#### Tipos de proxy mas utilizados 
+-   **Proxy HTTP**. Se utilizan para ver sitios web de forma anónima o acceder a contenidos con restricciones geográficas.
+-   **Proxy SOCKS**. Estos proxies se utilizan para apps y otros fines relacionados con la web fuera del protocolo HTTP o HTTPS, como apps de streaming de vídeo o intercambio P2P 
+-   **Proxy transparente.** También conocidos como proxies en línea, son utilizados por los administradores de red para controlar la actividad en línea, como bloquear el acceso a sitios y páginas web específicos.
+
+### Sandbox   
+Un sandbox en informática o un entorno de pruebas, **es una máquina virtual aislada en la que se puede ejecutar código de software potencialmente inseguro sin afectar a los recursos de red o a las aplicaciones locales**.
+![imagen 2]({{ '/assets/img/commons/Redes/sandbox.png' | relative_url }}){: .center-image }
