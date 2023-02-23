@@ -7,7 +7,9 @@ tags: [Introducción]
 math: true
 mermaid: true
 pin: true
-
+image:
+  path: /assets/img/commons/kaliparrot/security.jpg
+  alt: Tux<3 Hacker
 ---
 
 ## De que trata esta sección?
