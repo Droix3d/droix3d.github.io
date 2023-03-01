@@ -2,7 +2,7 @@
 title: SolidState Writeup
 author: Droix3d
 date: 30-01-2023 
-categories: [HackTheBox,Machines Linux-Medium]
+categories: [HackTheBox,Machines Medium]
 tags: [Writeup Guías HackTheBox ]
 pin: false
 image:
