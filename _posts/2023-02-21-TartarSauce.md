@@ -3,7 +3,7 @@ title: TartarSauce Writeup
 author: 
 date: 21-02-2023
 categories: [HackTheBox, Machines Medium]
-tags: [Writeup, Guías, HackTheBox,WordPress,Web,SUDO,RFI,GTFOBins]
+tags: [Writeup, Guías, HackTheBox,WordPress,Web,SUDO,RFI,GTFOBins, Linux]
 pin: false
 image:
   path: /assets/img/commons/TartarSauce/logo.png
