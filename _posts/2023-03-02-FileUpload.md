@@ -153,7 +153,9 @@ ahora si queremos cambiar es importante interceptar el payload y la petición va
 ## Bypassing Magic Number Filtering Hexadecimal 
 para esto agregaré hasta arriba 6 A y ver su representación en hexadecimal
 Si hemos agregado seis caracteres al comienzo de la secuencia de comandos, notaremos que al hacerlo agregó el código hexadecimal correspondiente. En este caso, 4141 4141 4141.
+
 ![](/assets/img/commons/FileUpload/terminal13.png)
+
 Para falsificar el número mágico, simplemente reemplazaremos esos seis bytes con uno de los dos números mágicos para GIF. Una vez que hagamos eso, podemos guardar el archivo y usaremos el comando de archivo nuevamente para verificar el tipo de archivo.
 modificaré esos bloques de bytes para convertirlo en GIF87a
 ```console
