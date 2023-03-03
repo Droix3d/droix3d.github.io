@@ -161,6 +161,8 @@ modificaré esos bloques de bytes para convertirlo en GIF87a
 ```
 ![](/assets/img/commons/FileUpload/terminal14.png)
 y vemos que automaticamente de el lado derecho me lo convierte a GIF
+
 ![](/assets/img/commons/FileUpload/terminal15.png)
+
 ¡Éxito! El archivo ahora se reconoce como un GIF. Al intentar cargar el archivo nuevamente, recibimos un mensaje de "Carga de archivo exitosa", por lo que hemos logrado pasar por alto el filtrado de números mágicos en el lado del servidor.
 
