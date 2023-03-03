@@ -99,14 +99,23 @@ Primero interceptamos la petición con burpsuite al guadar nuestro payload
 después damos CTRL + I para enviar la petición al intruder eligiendo el tipo de ataque sniper y borraré los paylaod markers que aparecen por defecto, esos payload markers interpretan en donde se hará el fuzzeo en mi caso solo lo quiero en la extensión php que es donde fuzzearé por multiples extensiones con php quedando de la soguiente forma:
 ![](/assets/img/commons/FileUpload/terminal7.png)
 en la sección de payload vamos a añadir todo el tipo de extensiones php que nos pueda interpretar el servidor incluso en gif, png, phar,png etc.
+
 ![](/assets/img/commons/FileUpload/terminal8.png)
+
 si le damos star attack vemos el fuzzing en las extensiones con un status de 200 eso quiere decir que fueron colocadas correctamente 
+
 ![](/assets/img/commons/FileUpload/terminal9.png)
+
 ahora tendremos que visualizar si en el lado del servidor se ejecuta nuestra función shell_exec para ejecutar comandos y aquí vemos todas las extensiones a probar de nuestra función shell_exec
+
 ![](/assets/img/commons/FileUpload/web3.png) 
+
 si intentamos hacerlo desde una extensión  como png,jpg o gif vemos un error si interpreta la extensión pero no el código a la llamada  del sistema
+
 ![](/assets/img/commons/FileUpload/web4.png)
+
 pero si probamos con pthml llamando a nuestra función cmd logramos tener ejecución remota de comandos
+
 ![](/assets/img/commons/FileUpload/web5.png)
 
 En caso de que las extensiones esten bloqueadas podriamos intentar un bypassing a través de los magic numbers cambiando la priemra serie de bloques de bytes de nuestro archivo es a lo que me lleva a lo siguiente
