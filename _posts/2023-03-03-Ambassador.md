@@ -180,12 +180,15 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 122.30 seconds
 ```
 aqui podemos visualizar varias cosas una de ellas que me llame enseguida la atención es el puerto 3306(MySQL) y 3000, normalmente al ver un puerto como el 3000 se esconden servicios web alojados fuera de la vista del publico, asi que vamos a ingresar para ver mas a detalle las cosas
+
 ![](/assets/img/commons/Ambassador/grafana.png)
 
 y efectivamente es un login de sesión, si nos fijamos bien por debajo tenemos la versión por lo tanto buscaré enseguida un exploit relacionado a grafana y vemos uno de unaa version 8.3.0 
+
 ![](/assets/img/commons/Ambassador/exploit.png)
 
 me lo traeré a mi máquina y lo analizaremos
+
 ![](/assets/img/commons/Ambassador/exploit1.png)
 
 ![](/assets/img/commons/Ambassador/exploit2.png)
