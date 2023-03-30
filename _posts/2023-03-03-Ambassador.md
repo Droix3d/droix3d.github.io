@@ -2,7 +2,7 @@
 title: Ambassador Writeup
 author:
 date: 03-03-2023
-categories: [HackTheBox, Machines Medium]
+categories: [HackTheBox Linux, Machines Medium]
 tags: [Writeup, Guías, HackTheBox,Linux, Path Traversal, Grafana,Web,Databases,Arbitrary File Read]
 pin: false
 image:
