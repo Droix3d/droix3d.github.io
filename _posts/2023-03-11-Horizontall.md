@@ -2,7 +2,7 @@
 title: Horizontall Writeup  
 author:
 date: 11-03-2023
-categories: [HackTheBox, Machines Easy]
+categories: [HackTheBox Linux, Machines Easy]
 tags: [Writeup, Guías, HackTheBox,Linux, Strapi, Laravel,Port Forwarding]
 pin: false
 image:
