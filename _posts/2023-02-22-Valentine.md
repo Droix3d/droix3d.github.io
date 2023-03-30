@@ -2,7 +2,7 @@
 title: Valentine Writeup
 author:
 date: 22-02-2023
-categories: [HackTheBox, Machines Easy]
+categories: [HackTheBox Linux, Machines Easy]
 tags: [Writeup, Guías, HackTheBox,SSL/TLS,Web,OpenSSL,encode, Linux]
 pin: false
 image:
