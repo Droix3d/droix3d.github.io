@@ -88,7 +88,7 @@ es un grupo de objetos de computadoras, usuarios, unidades organizativas, grupos
 colección de dominios de AD contiene a todos los objetos incluyendo, dominios, usuarios, grupos , equipos y objetos de directiva de grupo, un bosque puede tener uno o varios dominios 
 
 ## Árbol 
-comienza en un único dominio raíz. Un bosque es una colección de árboles AD. Dos árboles en el mismo bosque no pueden compartir un nombre (espacio de nombres). Digamos que tenemos dos árboles en un bosque AD: `tecnoc.local`y `tecnoc.local`. Un dominio hijo del primero sería `corp.tecnoc.local`mientras que un dominio hijo del segundo podría ser `corp.ilfreight.local`.
+comienza en un único dominio raíz. Un bosque es una colección de árboles AD. Dos árboles en el mismo bosque no pueden compartir un nombre (espacio de nombres). Digamos que tenemos dos árboles en un bosque AD: `tecnoc.local`y `tecnoc.local`. Un dominio hijo del primero sería `corp.tecnoc.local`mientras que un dominio hijo del segundo podría ser `corp.tecnoc.local`.
 
 ## Envase
 Los objetos contenedores contienen otros objetos y tienen un lugar definido en la jerarquía del sub árbol de directorios 
