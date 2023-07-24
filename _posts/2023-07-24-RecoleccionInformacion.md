@@ -87,6 +87,7 @@ Se basa en fuentes de información públicas y no requiere enviar solicitudes di
 
 ![](https://hackersonlineclub.com/wp-content/uploads/2016/11/Google-Hacking-Database.png)
 
+
 >**En otro de mis post dedicaré un apartado específicamente el uso de las herramientas de recolección pasiva y activa de información**
 
 Como anteriormente mencioné nuestra recolección de información será dependiendo al activo del cual vayamos a atacar por ejemplo es muy común en los sitios web que dejen registros como, números de teléfono, cuentas de correo, nombre del personal , consultar certificado SSL/TLS   que esto puede incluir más que solo un subdominio, y esto significa que el certificado se usa para varios dominios, y estos probablemente aún estén activos. 
