@@ -85,7 +85,7 @@ Se basa en fuentes de información públicas y no requiere enviar solicitudes di
 - **Maltego:** Una herramienta de inteligencia de código abierto que recopila y cruza datos de diversas fuentes para crear visualizaciones gráficas y conexiones de información entre objetivos.
 - **OSINT Framework:** Es una recopilación de herramientas y recursos de código abierto para inteligencia de fuentes abiertas (Open Source Intelligence), que incluye fuentes para búsqueda de correos electrónicos, nombres de usuarios, información de dominios, etc.
 
-![](https://hackersonlineclub.com/wp-content/uploads/2016/11/Google-Hacking-Database.png)
+![](https://itblogsec.com/wp-content/uploads/2017/02/Google-Dorks-Ultimate-Collection-For-Hackers.jpg)
 
 **En otro de mis post dedicaré un apartado específicamente el uso de las herramientas de recolección pasiva y activa de información**
 
