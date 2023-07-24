@@ -6,7 +6,7 @@ categories: [Hacking / Red Team && Pentesting,Footprinting]
 tags: [Offensive Security, RedTeam, Pentesting]
 pin: true
 image:
-  path: ../../assets/img/commons/Footprinting/Portada.jpg
+  path: ../../assets/img/commons/Footprinting/Portada1.jpg
   alt: Footprinting 
 ---
 
