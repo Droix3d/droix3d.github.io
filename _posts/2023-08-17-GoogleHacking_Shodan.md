@@ -88,7 +88,7 @@ en este dork se especifica y se pone de ejemplo un dork en busca de inyecciones 
 
 ![](/assets/img/commons/Footprinting/google4.png)
 
-##Dorks SQLinjection
+## Dorks SQLinjection
 
 ```text
 allinurl:*.php?txtCodiInfo=
