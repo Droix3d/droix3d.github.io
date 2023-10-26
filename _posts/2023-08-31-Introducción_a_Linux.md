@@ -1,5 +1,5 @@
 ---
-title: Introducción a Linux
+title: Introduccion a Linux
 author: Droix3d
 date: 2023-08-31
 categories: [Por donde empezar en Ciberseguridad, Linux]
