@@ -13,7 +13,7 @@ image:
 a la hora de enumerar un entorno de empresa es importante saber que lo mas mínimo que se pueda  obtener  información es realmente muy útil y en cierto punto puede ser muy abrumador por la cantidad de datos que se manejan . hay unos puntos claves que tenemos que tomar en cuenta a la hora de enumerar
 
 - AD users : se intenta enumerar cuentas de usuarios válidas 
-- AD Joined Computers : Los host incluyen controladores de dominio, servicios de archivos, servidores de bases de datos, servidores we y de correo etc...
+- AD Joined Computers : Los host incluyen controladores de dominio, servicios de archivos, servidores de bases de datos, servidores web y de correo etc...
 - Key Services: Kerberos, Netbios, LDAP , DNS
 ## Enumeración pasiva de usuarios 
 Internet es demasiado grande para encontrar información por lo tanto podemos hacer mucho uso de las redes sociales, que no organización tiene un perfil en facebook, una página web o un perfil de likedin? para empezar podemos hacer buen uso primero de ello . Pero realmente como podemos encontrar la suficiente recolección de información de una empresa o de una gran lista de usuarios que trabajen en una misma area y organización. En mi post de recolección de información explico el uso de **shodan y google dorks**   son piezas fundamentales que todo buen auditor de seguridad  debe de conocer, para mas información y como hacer el uso de estas herramientas el siguiente enlace en mi blog hago una explicación y práctica para recolectar información de esta manera 
